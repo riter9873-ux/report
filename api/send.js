@@ -15,7 +15,7 @@ export default async function handler(req, res) {
   const userAgent = req.headers["user-agent"] || "Unknown";
 
   const message = `
-New Visit:
+NEW PEOPLE:
 IP: ${ip}
 User-Agent: ${userAgent}
 Time: ${new Date().toLocaleString()}
